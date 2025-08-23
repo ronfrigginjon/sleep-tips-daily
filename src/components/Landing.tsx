@@ -39,7 +39,7 @@ export default function Landing() {
               Daily sleep tips to help you <span className="text-brand-700">sleep better</span> — in 30 seconds a day.
             </h1>
             <p className="mt-4 text-lg text-slate-700">
-              Join Sleep Tips Daily and get one science‑backed, actionable tip each evening. Improve sleep hygiene, build a better bedtime routine, and fall asleep faster.
+              Join Sleep Tips Daily and get one science-backed, actionable tip each evening. Improve sleep hygiene, build a better bedtime routine, and fall asleep faster.
             </p>
 
             <form onSubmit={subscribe} className="mt-6 p-2 bg-white border border-slate-200 rounded-2xl flex flex-col sm:flex-row gap-2">
