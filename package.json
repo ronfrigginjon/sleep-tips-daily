@@ -10,11 +10,12 @@
   "dependencies": {
     "lucide-react": "^0.446.0",
     "next": "13.4.12",
+    "next-sitemap": "^4.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "engines": {
-  "node": "22.x"
+    "node": "22.x"
   },
   "devDependencies": {
     "@types/node": "24.3.0",
