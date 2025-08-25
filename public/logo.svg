@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background (BIMI-friendly) -->
+  <defs>
+    <style>
+      .navy { fill: #0f2742; }
+      .yellow { fill: #F4E07A; }
+    </style>
+    <mask id="crescent-mask">
+      <rect x="0" y="0" width="256" height="256" fill="black"/>
+      <circle cx="96" cy="128" r="62" fill="white"/>
+      <circle cx="118" cy="118" r="54" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="96" cy="128" r="80" class="navy"/>
+  <rect x="16" y="48" width="160" height="160" class="yellow" mask="url(#crescent-mask)"/>
+</svg>
