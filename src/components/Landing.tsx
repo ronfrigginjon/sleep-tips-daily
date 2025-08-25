@@ -120,7 +120,50 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* … (rest of your sections unchanged) … */}
+      {/* FAQ Section */}
+      <section className="max-w-4xl mx-auto px-6 py-12">
+        <h2 className="text-2xl font-bold text-slate-900">Frequently Asked Questions</h2>
+        <div className="mt-6 space-y-6 text-slate-700">
+          <div>
+            <h3 className="font-semibold text-slate-900">What are sleep tips?</h3>
+            <p>
+              Sleep tips are short, science-backed recommendations that improve your sleep quality. 
+              They include routines, habits, and adjustments like light exposure, caffeine timing, 
+              and bedroom environment.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-slate-900">How can Sleep Tips Daily help me?</h3>
+            <p>
+              We send you one quick, easy-to-read tip each evening. Over time, these daily tips help 
+              you build better sleep hygiene, fall asleep faster, and wake up more refreshed.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-slate-900">Is the newsletter free?</h3>
+            <p>
+              Yes. Sleep Tips Daily is 100% free to join. We may include helpful resources and 
+              occasional partner recommendations, but the core tips are always free.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-slate-900">When will I receive the tips?</h3>
+            <p>
+              We deliver each tip in the evening, so you can put it into practice before going to bed. 
+              Consistency is key to improving sleep habits.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-slate-900">What is good sleep hygiene?</h3>
+            <p>
+              Sleep hygiene refers to the daily habits and environment that support healthy sleep. 
+              Examples include keeping a consistent bedtime, limiting screen use at night, 
+              avoiding caffeine late in the day, and making your bedroom cool and dark. 
+              Practicing good sleep hygiene makes falling asleep easier and improves sleep quality.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

@@ -25,6 +25,44 @@ export default function Home() {
       <meta name="twitter:title" content="Sleep Tips Daily — Nightly, 30-Second Sleep Advice" />
       <meta name="twitter:description" content="Join for nightly sleep tips to fall asleep faster and wake up refreshed." />
       <meta name="twitter:image" content="https://sleeptipsdaily.com/og-image.png" />
+	  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are sleep tips?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sleep tips are short, science-backed recommendations that improve your sleep quality. They include routines, habits, and adjustments like light exposure, caffeine timing, and bedroom environment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can Sleep Tips Daily help me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We send you one quick, easy-to-read tip each evening. Over time, these daily tips help you build better sleep hygiene, fall asleep faster, and wake up more refreshed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the newsletter free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Sleep Tips Daily is 100% free to join. We may include helpful resources and occasional partner recommendations, but the core tips are always free."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When will I receive the tips?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We deliver each tip in the evening, so you can put it into practice before going to bed. Consistency is key to improving sleep habits."
+            }
+          }
+        ]
+        })}} />
     </Head>
     
 	<SEO faqJsonLd={JSON.stringify({'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': 'What is Sleep Tips Daily?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'A free email newsletter that sends one proven sleep tip every morning to help you sleep better.'}}, {'@type': 'Question', 'name': 'How long are the tips?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'Each daily sleep tip is a 15–30 second read—fast to read and easy to use.'}}, {'@type': 'Question', 'name': 'Is this actually science‑backed?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'Yes. We translate sleep research on circadian rhythm, melatonin, deep sleep and REM into practical advice.'}}, {'@type': 'Question', 'name': 'Can I unsubscribe?', 'acceptedAnswer': {'@type': 'Answer', 'text': 'Anytime with one click—every email includes an unsubscribe link.'}}]}).replace(/</g,'\\u003c')} />
