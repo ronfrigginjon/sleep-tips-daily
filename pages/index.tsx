@@ -5,13 +5,11 @@ import Head from "next/head";
 export default function Home() {
   return (<>
     <Head>
-      <meta name="takeads-platform-verification" content="3abead6b-064d-4bbb-a9d9-7c550bd140a2"/>
-	  <title>Sleep Tips Daily — Nightly, 30-Second Sleep Advice</title>
+      <title>Sleep Tips Daily — Nightly, 30-Second Sleep Advice</title>
       <meta
         name="description"
         content="Join Sleep Tips Daily for a 30-second, science-backed sleep tip every evening. Build a better bedtime routine and sleep deeper."
       />
-	  
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://sleeptipsdaily.com" />
       
