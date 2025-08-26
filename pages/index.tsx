@@ -12,7 +12,7 @@ export default function Home() {
       />
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://sleeptipsdaily.com" />
-
+      <meta name="verify-admitad" content="db5fec6f0c" />
       {/* Open Graph */}
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Sleep Tips Daily" />
