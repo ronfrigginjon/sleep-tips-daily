@@ -10,9 +10,10 @@ export default function Home() {
         name="description"
         content="Join Sleep Tips Daily for a 30-second, science-backed sleep tip every evening. Build a better bedtime routine and sleep deeper."
       />
+	  <meta name="takeads-platform-verification" content="3abead6b-064d-4bbb-a9d9-7c550bd140a2"></meta>
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://sleeptipsdaily.com" />
-      <meta name="takeads-platform-verification" content="3abead6b-064d-4bbb-a9d9-7c550bd140a2" />
+      
       {/* Open Graph */}
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Sleep Tips Daily" />
